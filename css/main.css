@@ -464,6 +464,10 @@ footer a {
     #control-to-right {
         right: -3%;
     }
+
+    #images > section:first-child img {
+        width: 49%;
+    }
 }
 
 
@@ -530,5 +534,10 @@ footer a {
         .post > section:last-child {
             border-top: 2px solid var(--mainColor);
             padding-top: 10px;
+        }
+
+        
+        #images > section:first-child img {
+            width: 48%;
         }
 }
